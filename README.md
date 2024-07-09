@@ -18,7 +18,7 @@
    <a href="https://github.com/themeselection/sneat-vuetify-nuxtjs-admin-template-free/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/themeselection/sneat-vuetify-nuxtjs-admin-template-free" alt="license">
    </a>
-   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/themeselection/sneat-vuetify-nuxtjs-admin-template-free/deploy-demo.yml">
+   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/themeselection/sneat-vuetify-nuxtjs-admin-template-free/deploy-nuxt-free-demo.yml">
    <a href="https://github.com/themeselection/sneat-vuetify-nuxtjs-admin-template-free/releases">
     <img src="https://img.shields.io/github/release/themeselection/sneat-vuetify-nuxtjs-admin-template-free.svg" alt="GitHub release">
   </a>
