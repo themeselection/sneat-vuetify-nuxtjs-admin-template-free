@@ -12,7 +12,7 @@ export default defineNuxtConfig({
       link: [{
         rel: 'icon',
         type: 'image/x-icon',
-        href: `${process.env.NUXT_APP_BASE_URL}/favicon.ico`,
+        href: '/favicon.ico',
       }],
     },
   },
@@ -120,5 +120,5 @@ export default defineNuxtConfig({
     transpile: ['vuetify'],
   },
 
-  modules: ['@vueuse/nuxt', '@nuxtjs/i18n', '@nuxtjs/device', '@pinia/nuxt'],
+  modules: ['@vueuse/nuxt', '@nuxtjs/device', '@pinia/nuxt'],
 })
