@@ -101,6 +101,7 @@ const recentDevices = [
               >
                 <!-- 👉 current password -->
                 <VTextField
+                  :id="useId()"
                   v-model="currentPassword"
                   :type="isCurrentPasswordVisible ? 'text' : 'password'"
                   :append-inner-icon="isCurrentPasswordVisible ? 'bx-hide' : 'bx-show'"
@@ -119,6 +120,7 @@ const recentDevices = [
               >
                 <!-- 👉 new password -->
                 <VTextField
+                  :id="useId()"
                   v-model="newPassword"
                   :type="isNewPasswordVisible ? 'text' : 'password'"
                   :append-inner-icon="isNewPasswordVisible ? 'bx-hide' : 'bx-show'"
@@ -135,6 +137,7 @@ const recentDevices = [
               >
                 <!-- 👉 confirm password -->
                 <VTextField
+                  :id="useId()"
                   v-model="confirmPassword"
                   :type="isConfirmPasswordVisible ? 'text' : 'password'"
                   :append-inner-icon="isConfirmPasswordVisible ? 'bx-hide' : 'bx-show'"
@@ -227,6 +230,7 @@ const recentDevices = [
                   <!-- 👉 Choose API Key -->
                   <VCol cols="12">
                     <VSelect
+                      :id="useId()"
                       label="Choose the API key type you want to create"
                       placeholder="Select API key type"
                       :items="['Full Control', 'Modify', 'Read & Execute', 'List Folder Contents', 'Read Only', 'Read & Write']"
@@ -236,6 +240,7 @@ const recentDevices = [
                   <!-- 👉 Name the API Key -->
                   <VCol cols="12">
                     <VTextField
+                      :id="useId()"
                       label="Name the API key"
                       placeholder="Name the API key"
                     />

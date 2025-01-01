@@ -68,6 +68,7 @@ definePageMeta({ layout: 'blank' })
               <!-- Username -->
               <VCol cols="12">
                 <VTextField
+                  :id="useId()"
                   v-model="form.username"
                   autofocus
                   label="Username"
@@ -77,6 +78,7 @@ definePageMeta({ layout: 'blank' })
               <!-- email -->
               <VCol cols="12">
                 <VTextField
+                  :id="useId()"
                   v-model="form.email"
                   label="Email"
                   type="email"
@@ -87,8 +89,10 @@ definePageMeta({ layout: 'blank' })
               <!-- password -->
               <VCol cols="12">
                 <VTextField
+                  :id="useId()"
                   v-model="form.password"
                   label="Password"
+                  autocomplete="password"
                   placeholder="············"
                   :type="isPasswordVisible ? 'text' : 'password'"
                   :append-inner-icon="isPasswordVisible ? 'bx-hide' : 'bx-show'"
@@ -160,5 +164,5 @@ definePageMeta({ layout: 'blank' })
 </template>
 
 <style lang="scss">
-@use "@core/scss/template/pages/page-auth.scss";
+@use "@core/scss/template/pages/page-auth";
 </style>
